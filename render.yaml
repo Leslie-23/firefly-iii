@@ -11,12 +11,12 @@ services:
       - key: DB_CONNECTION
         value: mysql
       - key: DB_HOST
-        fromService: firefly-db
+        fromService: dpg-cuqiqmjtq21c73812af0-a
       - key: DB_PORT
-        value: 3306
+        value: 5432
       - key: DB_DATABASE
-        value: firefly
+        value: firefly_db_jqow
       - key: DB_USERNAME
-        value: root
+        value: firefly_db_jqow_user
       - key: DB_PASSWORD
-        value: yourpassword
+        value: YjKLUDsN9B5eDGt7mr9ZNgyMm6BaMjx4
